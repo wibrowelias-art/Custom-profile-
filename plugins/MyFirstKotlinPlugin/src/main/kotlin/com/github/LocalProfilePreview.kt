@@ -1,4 +1,4 @@
-package com.example.localprofilepreview
+package com.github.yournamehere
 
 import android.graphics.Color
 import android.view.View
