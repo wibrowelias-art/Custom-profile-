@@ -1,5 +1,6 @@
 package com.github.yournamehere
 
+
 import android.graphics.Color
 import android.view.View
 import android.widget.CheckBox
@@ -26,7 +27,11 @@ import com.aliucord.settings.SettingsTab
  *
  * It only supplies values for local UI rendering.
  */
+import com.aliucord.annotations.AliucordPlugin
+
+@AliucordPlugin
 class LocalProfilePreview : Plugin() {
+    
 
     companion object {
         const val KEY_ENABLED = "enabled"
